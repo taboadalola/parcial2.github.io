@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+@media (max-width:1231) {}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 4em 3em;
+    align-items: center;
+
+}
+
+
+.logo {
+    width: 3em;
+    height: 3em;
+}
+
+.miDivLogo {
+    display: flex;
+    align-items: center;
+
+}
+
+.miDivNav {
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: medium;
+}
+
+i {
+    align-content: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+
+
+.miDivBoton {
+
+}
+
+.quote1 {
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 3em;
+    padding: 1em 2em;
+}
+
+.tituloFoto {
+    display:flex;
+    justify-content: space-between;
+}
+
+.titulo {
+    width: 50%;
+    margin: 4em;
+    
+    
+    
+}
+
+h1 {
+    font-size: 4em;
+    padding-bottom: 0.5em;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.primerParrafo {
+    font-size: medium;
+    color: gray;
+    margin-bottom: 1em;
+    line-height: 2em;
+    font-size: medium;
+    color: gray;
+    line-height: 2em;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.imagenDos {
+    height: 35em;
+    width: 30em;
+    border-radius: 1em;
+    margin-top: 3em;
+    
+}
+
+.imagenUno {
+    width: 40%;
+}
+
+.searching {
+    width: 50em;
+    border-radius: 2em;
+    height: 4em;
+    background-color:  whitesmoke;
+    border-style: none;
+    margin-bottom: 3em;
+}
+
+.todoslosDatos {
+    display:flex;
+
+}
+
+.datos1 {
+    margin-right: 3em;
+}
+
+.subtitulo1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.busquedaUno {
+    display: flex;
+    width: 40em;
+    border-radius: 2em;
+    height: 4em;
+    background-color:  whitesmoke;
+    border-style: none;
+    margin-bottom: 3em;
+}
+
+#segundaParte {
+    margin: 3em 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.subtituloUno {
+    font-size: 2.5em;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    
+    
+    
+}
+
+.parDos {
+    font-size: medium;
+    color: gray;
+    line-height: 2em;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    
+
+}
+
+.parrafo2 {
+   width: 50%; 
+   text-align: left;
+
+    
+}
+
+.subtituloDiv {
+    width: 50%;
+    text-align: left;
+
+}
+
+#terceraParte {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 4em 1em 4em;
+}
+
+img {
+    width: 18em;
+    height: 16em;
+    border-radius: 2em;
+}
+
+.box {
+    width: 18em;
+    height: 16em;
+    border-radius: 2em;
+    display: flex;
+
+}
+
+.precio {
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding-top: 0.5em;
+    
+    
+}
+
+.circle {
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    width: 4em;
+    height: 2em;
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 1em;
+    justify-content: center;
+    align-content: center;
+    vertical-align: center;
+    
+    
+}
+
+.boxDown {
+    width: 16em;
+    text-align: left;
+    
+}
+    
+
+
+.ubicacion {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+#cuartaParte {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4em;
+    margin-right: 4em;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#quintaParte {
+    display: flex;
+    margin: 3em 4em;
+    align-items: center;
+}
+
+.seeMore {
+    background-color: white;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 3em;
+    padding: 1em 3em;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-size: medium;
+    
+}
+
+.subtituloTres {
+    font-size: 2.2em;
+}
+
+.parrafo4 {
+    width: 80%;
+
+}
+
+.botonSeeMore {
+    
+    
+}
+
+#sextaParte {
+    height: 40em;
+    background-color:whitesmoke;
+    margin: 3em 0em;
+    
+}
+
+.generalSexta {
+    display: flex;
+    
+    margin: 4em 4em;
+    padding: 3em;
+
+}
+
+.imagenSexta {
+    width: 30em;
+    height: 20em;
+    
+    
+}
+
+.derecha {
+    margin-left: 2em;
+    
+}
+
+.titulo6 {
+    font-size: 2.5em;
+    padding: 1em 0em;
+}
+
+.generalSeptima {
+    display: flex;
+    margin: 1em 2em;
+    padding: 3em;
+}
+
+.circuloNum {
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    width: 3em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+
+    
+}
+
+.numeroNegro {
+    padding-top: 0.4em;
+}
+
+.titulo7 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.generalOctava {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ok {
+    display: flex;
+    align-items: center;
+}
+
+.derecha1 {
+    width: 35em;
+    height: 45em;
+}
+
+#octavaParte {
+    margin: 3em 4em;
+}
+
+.clase3 {
+    font-size: 2.5em;
+}
+
+.primero {
+   
+}
+
+.listado {
+    margin-top: 3em;
+}
+
+.izqOcho {
+    width: 50%;
+}
+
+.octavo {
+    margin-left: 5em;
+}
+
+.generalOctava {
+    margin-bottom: 10em;
+}
+
+.generalNueve {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.testimonio {
+    display: flex;
+}
+
+.perfilUno {
+
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+
+#novenaParte {
+    margin: 3em 4em;
+}
+
+.testi {
+    font-size: medium;
+    margin-bottom: 0.5em;
+}
+
+.parrafo {
+    margin-bottom: 2em;
+}
+
+.parNueve {
+    font-size:x-small;
+}
+
+.boxes {
+    width: 17em;
+    margin-bottom: 4em;
+}
+
+.listado10 {
+    display: flex;
+}
+
+.izquierdaImg {
+    width: 30em;
+    height: 32em;
+}
+
+.generalDiez {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.casaFin1 {
+    width: 12em;
+    height: 12em;
+}
+
+.quoteDos {
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 3em;
+    padding: 1em 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: large;
+}
+
+.diezdiez {
+    margin-bottom: 0.5em;
+    font-size:3.5em;
+}
+
+.listadoCasa {
+    margin-left: 0.5em;
+}
+
+#parteFinal {
+    height: 20em;
+    background-color:whitesmoke;
+   
+    
+}
+
+.generalFinal {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 4em;
+    padding-top: 6em;
+}
+
+.finalBox {
+    width: 17em;
+}
+
+.listaFin {
+    list-style: none;
+    padding: 0.5em;
+    font-weight: bold;
+    font-weight: lighter;
+}
+
+.touch {
+    display: flex;
+}
+
+.inEmail {
+    border-style: solid;
+    border-radius: 1em;
+    padding: 1em 4em;
+    background-color: whitesmoke;
+    
+
+
+}
+
+.submit {
+    background-color: blue;
+    color: white;
+    border-style: none;
+    border-radius: 3em;
+    padding: 1em 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: medium;
+    width: 17.5em;
+}
+
+
+
+
